@@ -1,12 +1,5 @@
-# Built Value Snippets
- 
-[Built Value](https://github.com/google/built_value.dart) Snippets for Visual Studio Code and IntelliJ.
-
-| Visual Studio Code                                                                           | IntelliJ                                                                                            |
-| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| [![Version](https://vsmarketplacebadge.apphb.com/version/GiancarloCode.built-value-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=GiancarloCode.built-value-snippets)             |[![Version](https://img.shields.io/jetbrains/plugin/v/13786)](https://plugins.jetbrains.com/plugin/13786-built-value-snippets) 
-
-
+# Built Value Snippets 
+This extension contains code snippets for [built_value](https://github.com/google/built_value.dart) package.
 
 ![Demo](https://giancarlocode.com/wp-content/uploads/built_value_snippets_1.gif)
 
@@ -39,3 +32,21 @@
 | `@bvf`      | @BuiltValueField                 | @BuiltValueField
 | `@bve`      | @BuiltValueEnum                 | @BuiltValueEnum
 | `@bvec`      | @BuiltValueEnumConst                 | @BuiltValueEnumConst
+
+## Known Issues
+At this time, there are no known issues. If you discover a bug or would like to see a snippet added, please create an issue or pull request at our [GitHub repository](https://github.com/GiancarloCode/vscode-built-value-snippets/issues). 
+
+## Release Notes
+
+## 1.2.0
+* Renamed `toMap()` to `toJson()` in `bvts`, `bvtsf`, `bvtgs` and `bvtgsf` snippets
+* Renamed `fromMap(Map<String, dynamic> map)` to `fromJson(Map<String, dynamic> json)` in `bvts`, `bvtsf`, `bvtgs` and `bvtgsf` snippets
+
+## 1.1.0
+* Added `bves` (Built Value Enum Serializable) snippet
+* Added `bvesf` (Built Value Enum Serializable File) snippet
+* Fixed `bvs` (Built Value Serializers) snippet
+
+## 1.0.0
+
+- Initial release
